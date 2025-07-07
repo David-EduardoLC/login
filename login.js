@@ -5,7 +5,7 @@ function login() {
 
   if (correo.trim() !== "" && contrasena.trim() !== "") {
     // Redirigir a la página local
-    window.location.href = "Pagweb";
+    window.location.href = "Pagweb.html";
   } else {
     mensajeError.textContent = "Por favor, complete ambos campos.";
   }
