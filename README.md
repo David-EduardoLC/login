@@ -42,7 +42,7 @@ Está construido sin frameworks externos, utilizando solo **Bootstrap para estil
 
 ---
 
-## ⚙️ Explicación del HTML
+##  Explicación del HTML
 
 ```html
 <form onsubmit="event.preventDefault(); login();">
@@ -83,7 +83,7 @@ Botón principal para iniciar sesión, que ejecuta `login()` al hacer clic.
 
 ---
 
-## 🧠 Explicación detallada del JavaScript
+##  Explicación detallada del JavaScript
 
 ### `login()`
 ```js
@@ -193,11 +193,5 @@ Evalúa cuán segura es la contraseña basándose en 5 criterios. Muestra una ba
 
 Este proyecto puede visualizarse desde GitHub Pages:  
 📎 [https://david-eduardolc.github.io/login-proyecto/](https://david-eduardolc.github.io/login-proyecto/)
-
----
-
-## 🎥 Video Explicativo
-
-▶️ https://youtu.be/WOUJ4MwsG3c
 
 ---
