@@ -192,6 +192,6 @@ Evalúa cuán segura es la contraseña basándose en 5 criterios. Muestra una ba
 ## 🌐 GitHub Pages
 
 Este proyecto puede visualizarse desde GitHub Pages:  
-📎 [https://david-eduardolc.github.io/login-proyecto/](https://david-eduardolc.github.io/login-proyecto/)
+https://david-eduardolc.github.io/login/
 
 ---
