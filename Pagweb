@@ -8,12 +8,63 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
 
-  <!-- Tu CSS personalizado -->
-  <link rel="stylesheet" href="../css/Tarea1.css" />
-
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
+  <!-- Estilos internos -->
+  <style>
+    body {
+      padding-top: 100px;
+      background-image: url('../img/fonfo.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 600px auto;
+      background-attachment: fixed;
+      background-color: #fff6f8;
+    }
+
+    .navbar-rp {
+      width: 100%;
+      background-color: #ffc3eb;
+      padding: 20px;
+      border-radius: 0;
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    section {
+      scroll-margin-top: 120px;
+    }
+
+    h2, h3 {
+      color: #000000;
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .categoria {
+      background-color: #ffe6ec;
+      padding: 30px 15px;
+      border-radius: 20px;
+      margin-bottom: 60px;
+    }
+
+    .producto {
+      border: 1px solid #f2f2f2;
+      border-radius: 15px;
+      padding: 15px;
+      background: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease;
+    }
+
+    .producto:hover {
+      transform: scale(1.02);
+    }
+
+    .producto img {
+      border-radius: 10px;
+    }
+  </style>
 </head>
 <body>
 
@@ -23,15 +74,7 @@
     <a class="navbar-brand" href="index.html">
       <img src="../img/dulcetentacion.png" alt="Logo Dulce Tentación" width="70" />
     </a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#collapsibleNavbar"
-      aria-controls="collapsibleNavbar"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
@@ -41,12 +84,7 @@
         <li class="nav-item"><a class="nav-link" href="Pedidos.html">Pedidos</a></li>
         <li class="nav-item"><a class="nav-link" href="Menú.html">Menú</a></li>
         <li class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            href="#"
-            role="button"
-            data-bs-toggle="dropdown"
-          >Otros</a>
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Otros</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Contacto</a></li>
             <li><a class="dropdown-item" href="#">Galería</a></li>
@@ -58,19 +96,17 @@
   </div>
 </nav>
 
-  <!-- Fila 1 -->
-  <div class="row mb-4">
+<!-- Fila 1 -->
+<div class="row mb-4">
   <div class="col-12">
     <img src="../img/pasteles.jpeg" class="img-fluid w-100 rounded" alt="Pastel">
   </div>
 </div>
 
+<!-- Sección Especialidades -->
 <section id="Nuestras Especialidades" class="container mt-5">
   <h3 class="text-center">Nuestras Especialidades</h3>
-  <div class="container mt-5">
-  </div>
 </section>
-
 
 <!-- Fila 2 -->
 <div class="row mb-3">
@@ -78,12 +114,10 @@
     <h3>Pay de Queso</h3>
     <img src="../img/pay.jpg" class="img-fluid w-50 rounded d-block mx-auto" alt="Pay">
   </div>
-
   <div class="col-sm-4 text-center">
     <h3>Panque de Elote</h3>
     <img src="../img/panque-elote-1.jpg" class="img-fluid w-50 rounded d-block mx-auto" alt="Panque">
   </div>
-
   <div class="col-sm-4 text-center">
     <h3>Pay Tortuga</h3>
     <img src="../img/PAYTORTUGA1.jpg" class="img-fluid w-50 rounded d-block mx-auto" alt="Paytortuga">
@@ -91,40 +125,36 @@
 </div>
 
 <!-- Espacio -->
-<div style="height: 100px;"></div> <!-- Ajusta los px según el espacio que necesites -->
-
-
+<div style="height: 100px;"></div>
 
 <!-- Fila 3 -->
 <div class="row mt-5 mb-5">
-  <!-- Columna de texto (izquierda) -->
+  <!-- Columna de texto -->
   <div class="col-md-4 offset-md-1 d-flex flex-column justify-content-center">
     <h3 class="mb-2" style="font-weight: 300;">LOS MÁS BUSCADOS</h3>
     <p>Eleva tu día con el pan y pasteles favoritos de nuestros invitados.</p>
     <a href="#" class="btn btn-outline-danger mt-2 w-50">VISITAR TIENDA</a>
   </div>
 
-  <!-- Columna de productos (derecha) -->
+  <!-- Columna de productos -->
   <div class="col-md-6">
     <div class="row justify-content-center">
       <!-- Producto 1 -->
-      <div class="col-md-4 mb-4 text-center">
+      <div class="col-md-4 mb-4 text-center producto">
         <img src="../img/pastelzarz.jpg" class="img-fluid rounded w-75" alt="Pastel">
         <p class="mt-2 mb-1">Pastel de zarzamora</p>
         <strong>$629</strong>
         <button class="btn btn-sm btn-danger w-100 mt-1">AGREGAR</button>
       </div>
-
       <!-- Producto 2 -->
-      <div class="col-md-4 mb-4 text-center">
+      <div class="col-md-4 mb-4 text-center producto">
         <img src="../img/selva-negra-scaled.jpg" class="img-fluid rounded w-75" alt="Pastel">
         <p class="mt-2 mb-1">Pastel Helado Conejito</p>
         <strong>$419</strong>
         <button class="btn btn-sm btn-danger w-100 mt-1">AGREGAR</button>
       </div>
-
       <!-- Producto 3 -->
-      <div class="col-md-4 mb-4 text-center">
+      <div class="col-md-4 mb-4 text-center producto">
         <img src="../img/lotus.jpg" class="img-fluid rounded w-75" alt="Pastel">
         <p class="mt-2 mb-1">New York Cheesecake</p>
         <strong>$629</strong>
@@ -133,11 +163,6 @@
     </div>
   </div>
 </div>
-
-
-</div>
-</div>
-</section>
 
 </body>
 </html>
