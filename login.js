@@ -5,7 +5,7 @@ function login() {
 
   if (correo.trim() !== "" && contrasena.trim() !== "") {
     // Redirigir a la página local
-    window.location.href = "http://localhost/prograweb/Tarea/Tarea1.html";
+    window.location.href = "Pagweb";
   } else {
     mensajeError.textContent = "Por favor, complete ambos campos.";
   }
