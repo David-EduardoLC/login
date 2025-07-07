@@ -16,7 +16,7 @@ Alumno:
 **López Cruz David Eduardo**  
 Grupo: VSI  
 
-Oaxaca, Oaxaca, a 05 de julio de 2025.
+Oaxaca, Oaxaca, a 07 de julio de 2025.
 
 </div>
 
